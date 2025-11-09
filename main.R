@@ -43,4 +43,5 @@ df_final <- tibble(comment = eval_df) %>%
   bind_cols(pred_table)
 
 # Save results
-write_csv(df_final, "BERT_results.csv")
+
+write_csv(df_final, "results.csv")
