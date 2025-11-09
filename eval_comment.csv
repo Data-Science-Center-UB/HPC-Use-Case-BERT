@@ -1,0 +1,41 @@
+Comment,Sentiment
+The employee consistently delivers exceptional results and maintains a high level of professionalism.,Positive
+"There have been repeated issues with meeting deadlines, which affects overall team performance.",Negative
+Shows great enthusiasm for projects and takes initiative to improve workflow processes.,Positive
+Struggles with adapting to changes in the work environment and often needs additional guidance.,Negative
+"Excels in communication, making it easier for the team to collaborate effectively.",Positive
+Needs to improve listening skills as misunderstandings often arise in discussions.,Negative
+Always demonstrates a strong work ethic and willingness to go the extra mile.,Positive
+"Lacks motivation at times, which is evident in the quality of work delivered.",Negative
+Has a great ability to handle pressure and manage tight deadlines successfully.,Positive
+"Often needs reminders to complete assigned tasks, which slows down progress.",Negative
+Takes constructive feedback positively and works on improving performance.,Positive
+"Tends to be defensive when receiving feedback, making improvement difficult.",Negative
+Highly reliable and can be trusted to handle critical assignments with precision.,Positive
+"Shows inconsistency in work quality, requiring frequent revisions.",Negative
+Encourages a positive work culture by motivating and supporting colleagues.,Positive
+"Does not actively participate in team efforts, which affects morale.",Negative
+Effectively balances multiple responsibilities without compromising quality.,Positive
+"Struggles to manage workload efficiently, leading to missed deadlines.",Negative
+Demonstrates leadership qualities and inspires team members to perform better.,Positive
+Rarely takes the initiative to lead projects or contribute ideas.,Negative
+"Maintains a high standard of accuracy in work, reducing the need for rework.",Positive
+Often makes avoidable mistakes that could be prevented with better focus.,Negative
+Quickly adapts to new technologies and is always open to learning.,Positive
+"Shows resistance to learning new skills, which limits professional growth.",Negative
+Consistently meets or exceeds performance expectations in all assigned tasks.,Positive
+Performance is below expected standards and needs significant improvement.,Negative
+Provides innovative solutions that improve efficiency within the department.,Positive
+"Lacks creativity in problem-solving, relying too much on others for solutions.",Negative
+Has a strong sense of accountability and takes responsibility for mistakes.,Positive
+"Avoids taking responsibility for errors, often shifting blame to others.",Negative
+Engages well with customers and ensures they receive the best service possible.,Positive
+"Customer interactions are sometimes lacking professionalism, causing complaints.",Negative
+"Maintains a positive attitude even in stressful situations, boosting team morale.",Positive
+"Shows signs of frustration easily, which negatively impacts the team’s energy.",Negative
+Regularly contributes to brainstorming sessions with valuable insights.,Positive
+Rarely engages in discussions and contributes little to team meetings.,Negative
+"Has a disciplined approach to time management, ensuring timely task completion.",Positive
+"Frequently mismanages time, leading to unfinished work and delays.",Negative
+Goes beyond job responsibilities to support team members and enhance outcomes.,Positive
+"Does only the bare minimum required, showing little interest in team success.",Negative
