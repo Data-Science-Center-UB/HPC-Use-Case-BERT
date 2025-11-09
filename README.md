@@ -18,12 +18,7 @@ Note that we run the environment installation on the CPU compute node to avoid p
 # 1. Enter the project folder
 cd HPC-Use-Case-BERT
 
-# 2. Create the virtual environments
-# The name is referenced in the bash scripts,
-# so it should not be changed
-python3 -m venv ./BERT-venv
-
-# 3. Run the installation via the sbatch script "setup.sh"
+# 2. Create the conda environment & run the installation via the sbatch script "setup.sh"
 sbatch setup.sh
 ```
 
