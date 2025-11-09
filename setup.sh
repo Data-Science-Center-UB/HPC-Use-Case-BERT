@@ -3,7 +3,7 @@
 
 
 # First, we need to tell SLURM some information about the job
-#SBATCH --job-name=birds-setup
+#SBATCH --job-name=BERT-setup
 
 # Requesting 10 GB of memory - This should be enough for setup
 # and allows 12 concurrent users on a 128 GB node
