@@ -1,4 +1,4 @@
-#!/bin/bash
+v#!/bin/bash
 
 
 
@@ -37,7 +37,7 @@ module load anaconda/3.2021.11
 source /hpc/opt/apps/Anaconda/3-2021.11/etc/profile.d/conda.sh 
 
 # Activate the conda environment to get access to the required packages
-conda activate BERT
+conda activate BERTenv
 
 # Run the main script to generate predictions
 Rscript main.R
