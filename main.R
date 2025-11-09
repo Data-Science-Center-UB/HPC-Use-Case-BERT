@@ -5,6 +5,7 @@ library(tidyverse)
 library(DT)
 
 # load transformers module 
+use_condaenv("BERTenv", required = TRUE) # Pin the Conda env before importing Python modules
 transformer <- import("transformers")
 autotoken <- transformer$AutoTokenizer
 autoModelClass <- transformer$AutoModelForSequenceClassification
@@ -45,3 +46,4 @@ df_final <- tibble(comment = eval_df) %>%
 # Save results
 
 write_csv(df_final, "results.csv")
+
