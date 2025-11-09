@@ -8,7 +8,7 @@ This guide provides a step-by-step approach to performing **sentiment analysis w
 After logging into the HPC cluster, got to a workspace directory, then clone the repository with:
 
  ```
-git clone git@github.com:Data-Science-Center-UB/HPC-Use-Case-BERT.git
+git clone https://github.com/Data-Science-Center-UB/HPC-Use-Case-BERT.git
  ```
 
 **Step 2 - Create a new environment**:
