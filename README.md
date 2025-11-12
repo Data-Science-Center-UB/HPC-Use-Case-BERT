@@ -1,6 +1,6 @@
 # HPC Use Case BERT (Sentiment Analysis)
 
-This guide provides a step-by-step approach to performing **sentiment analysis with BERT using R and Python** on a HPC cluster. The workflow and example code are adapted from [R-Bloggers](https://www.r-bloggers.com/2023/08/hugging-face-%F0%9F%A4%97-with-a-warm-embrace-meet-r%EF%B8%8F-%E2%9D%A4%EF%B8%8F/). We generated evaluation comments (file "eval_comment.csv") using **GPT-4** with the following prompt: *"Please write me 40 comments on evaluation of anonymous employee with minimum of 2 to 3 sentences with another column showing its sentiment whether it is positive or negative. Use column headers "Comment" and "Sentiment."*
+The repository demonstrates how to use a (the DSC) HPC cluster. It contains a use case to run a **sentiment analysis with BERT using R and Python**. The workflow and example code were adapted from [R-Bloggers](https://www.r-bloggers.com/2023/08/hugging-face-%F0%9F%A4%97-with-a-warm-embrace-meet-r%EF%B8%8F-%E2%9D%A4%EF%B8%8F/). Evaluation comments were generated (file "eval_comment.csv") using **GPT-4** with the following prompt: *"Please write me 40 comments on evaluation of anonymous employee with minimum of 2 to 3 sentences with another column showing its sentiment whether it is positive or negative. Use column headers "Comment" and "Sentiment."*
 
 ---
 
@@ -28,3 +28,7 @@ Submit the job so it runs on a compute node. Open `run_BERT.sh` to see the exact
 ```bash
 sbatch run_BERT.sh
 ```
+
+>About the project
+>
+>This repository was developed and delivered as part of workshops within the framework of the DataNord project at the Data Science Center of the University of Bremen. The DataNord project is funded under the grant number 16DKZ2026A by the Federal Ministry of Research, Technology and Space (BMFTR) >and financed by the European Union – NextGenerationEU. It is part of a broader initiative to strengthen data literacy among researchers by offering practical, hands-on training in core areas of 1) data science, 2) research data management (RDM), 3) critical thinking, and 4) ethical, legal and social aspects (ELSA). The materials were developed by Annika Nolte.
